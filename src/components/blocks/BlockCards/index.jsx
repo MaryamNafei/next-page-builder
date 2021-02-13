@@ -29,14 +29,12 @@ const Row = styled.div`
 const Title = styled.div`
   display: flex;
   align-self: center;
-  // margin-bottom: 20px;
   font-family: arial;
   color: #565454;
   font-size: 16px;
   @media ${viewport.xs} {
     margin: 50px 40px;
   }
-
   @media ${viewport.md} {
     margin: 20px 0px;
   }
